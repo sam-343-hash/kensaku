@@ -1,0 +1,14 @@
+# Never commit credentials
+kaggle.json
+.env
+
+# Agent working folders
+results/*
+!results/.gitkeep
+jobs/done/
+jobs/failed/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
